@@ -15,3 +15,4 @@ Depending on the data selected, the code will either run least squares regressio
 As detailed in the paper, for the algorithms considered, performance with respect to the total number of proximal operator evaluations is more reflective of real world performance than performance versus iterations.
 An expanded discussion on this point can be found in the paper at the beginning of Section 4 Numerical experiments.
 For this reason, the code can be configured to display performance verses either the number of proximal operator evaluations or iterations.
+After all optimizer finish, plots of the results will be displayed and results will be written to the results directory.
